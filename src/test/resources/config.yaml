@@ -1,0 +1,18 @@
+server: "default" # must map to one of the servers below
+
+# Locale for i18n string comparisons
+language: "en"
+country: "US"
+
+# Servers -> please keep new configs above this section
+servers:
+  -
+    default: &DEFAULT
+      serverUrl: "https://postman-echo.com"
+      adminUsername: "Administrator"
+      adminPassword: "Password1"
+      databaseUrl: ""
+      databaseUsername: ""
+      databasePassword: ""
+      consumerSdkKey: ""
+      providerSdkKey: ""

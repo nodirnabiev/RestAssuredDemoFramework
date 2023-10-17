@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restassured.api.test.postman.PostmanRequestTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-17T00:25:08" hostname="Nodirs-MacBook-Pro.local" time="1.345">
+  <properties/>
+  <testcase name="testPostmanGetRequest" classname="restassured.api.test.postman.PostmanRequestTest" time="0.923"/>
+  <testcase name="testPostmanPostRequest" classname="restassured.api.test.postman.PostmanRequestTest" time="0.223"/>
+  <testcase name="testPostmanPutRequest" classname="restassured.api.test.postman.PostmanRequestTest" time="0.195"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://postman-echo.com/get?foo1=bar1&foo2=bar2
+Proxy:			<none>
+Request params:	<none>
+Query params:	foo1=bar1
+				foo2=bar2
+Form params:	<none>
+Path params:	<none>
+Headers:		content-length=0
+				x-forwarded-proto=https
+				host=postman-echo.com
+				x-forwarded-port=443
+				accept-encoding=gzip, deflate, br
+				user-agent=PostmanRuntime/7.33.0
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://postman-echo.com/post
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "testData": "This is expected to be sent back as part of response body for put request"
+}
+Request method:	PUT
+Request URI:	https://postman-echo.com/put
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "testData": "This is put request data"
+}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO restassured.api.test.postman.PostmanRequestTest - initialize test data..
+[Test worker] INFO restassured.api.test.postman.PostmanRequestTest - Running testPostmanGetRequest()...
+[Test worker] INFO restassured.api.test.postman.PostmanRequestTest - Getting response and get request data
+[Test worker] INFO restassured.api.test.postman.PostmanRequestTest - Checking that call status is successful
+[Test worker] INFO restassured.api.test.postman.PostmanRequestTest - Running testPostmanPostRequest()...
+[Test worker] INFO restassured.api.test.postman.PostmanRequestTest - Getting response and post request data
+[Test worker] INFO restassured.api.test.postman.PostmanRequestTest - Checking that call status is successful
+[Test worker] INFO restassured.api.test.postman.PostmanRequestTest - Running testPostmanPutRequest()...
+[Test worker] INFO restassured.api.test.postman.PostmanRequestTest - Getting response and put request data
+[Test worker] INFO restassured.api.test.postman.PostmanRequestTest - Checking that call status is successful
+]]></system-err>
+</testsuite>
